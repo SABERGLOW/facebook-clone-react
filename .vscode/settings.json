@@ -1,5 +1,10 @@
 {
 	"emmet.includeLanguages": {
 		"javascript": "javascriptreact"
-	}
+    },
+    "path-intellisense.autoSlashAfterDirectory": true,
+    "path-intellisense.autoTriggerNextSuggestion": true,
+    "path-intellisense.showHiddenFiles": true,
+    "typescript.suggest.paths": false,
+    "javascript.suggest.paths": false
 }
