@@ -42,10 +42,10 @@
 
 }
 
-.header__option > .MUISvgIcon-root{
-	color: gray;
+.header__option > .MuiSvgIcon-root{
+	color: grey;
 }
 
-.header__option:hover > .MUISvgIcon-root{
+.header__option:hover > .MuiSvgIcon-root{
 	color: #2e81f4;
 }
