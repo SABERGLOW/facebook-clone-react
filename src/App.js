@@ -5,7 +5,6 @@ import Header from "./Header";
 function App() {
 	return (
 		<div className='app'>
-			<h1>Building a Facebook Clone...</h1>
 
 			{/*... Header Component with Logo, Search, Homepage Icon etc ...*/}
 			<Header />
