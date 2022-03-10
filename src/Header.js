@@ -7,9 +7,8 @@ import FlagIcon from '@mui/icons-material/Flag';
 import SubscriptionsOutlinedIcon from '@mui/icons-material/SubscriptionsOutlined';
 import StorefrontOutlinedIcon from '@mui/icons-material/StorefrontOutlined';
 import SupervisedUserCircleIcon from '@mui/icons-material/SupervisedUserCircle';
-import { Avatar } from '@mui/material';
+import { Avatar, IconButton } from '@mui/material';
 import profileAvatar from './assets/profileAvatar.jpg'
-import {Avatar, IconButton} from '@mui/material/core';
 import AddIcon from '@mui/icons-material/Add';
 import ForumIcon from '@mui/icons-material/Forum';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
@@ -59,7 +58,7 @@ function Header() {
                     <IconButton>
                         <NotificationsActiveIcon/>
                     </IconButton>
-                    
+
                     <IconButton>
                         <ExpandMoreIcon/>
                     </IconButton>
