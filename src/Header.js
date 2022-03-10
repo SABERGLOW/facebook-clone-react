@@ -26,7 +26,7 @@ function Header() {
                 <input type="text" />
             </div>
 
-            <div className="header__middle">
+            <div className="header__center">
                 <div className="header__option">
                     <HomeIcon fontSize="large"/>
                 </div>
