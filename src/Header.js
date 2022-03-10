@@ -7,6 +7,8 @@ import FlagIcon from '@mui/icons-material/Flag';
 import SubscriptionsOutlinedIcon from '@mui/icons-material/SubscriptionsOutlined';
 import StorefrontOutlinedIcon from '@mui/icons-material/StorefrontOutlined';
 import SupervisedUserCircleIcon from '@mui/icons-material/SupervisedUserCircle';
+import { Avatar } from '@mui/material';
+import profileAvatar from './assets/profileAvatar.jpg'
 
 function Header() {
     return (
@@ -37,7 +39,10 @@ function Header() {
                 </div>
             </div>
             <div className='header__right'>
-
+                <div className="header__info">
+                    <Avatar src = {profileAvatar} alt='Facebook Profile Avatar'/>
+                    <h4>Wali Ullah</h4>    
+                </div>
             </div>
 
         </div>
