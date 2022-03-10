@@ -39,5 +39,13 @@
 	display: flex;
 	flex : 1;
 	justify-content: center;
-	
+
+}
+
+.header__option > .MUISvgIcon-root{
+	color: gray;
+}
+
+.header__option:hover > .MUISvgIcon-root{
+	color: #2e81f4;
 }
