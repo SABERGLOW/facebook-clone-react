@@ -12,6 +12,20 @@
 	
 }
 
+.header__left{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.header__input{
+	display: flex;
+	align-items: center;
+	background-color: #eff2f5;
+	padding: 10px;
+	margin-left: 10px;
+	border-radius: 999px;
+}
 .header__left > img {
 	height: 40px;
+
 }
