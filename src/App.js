@@ -4,15 +4,20 @@ import Header from "./Header";
 
 function App() {
 	return (
+		// BEM naming convention
 		<div className='app'>
 
 			{/*... Header Component with Logo, Search, Homepage Icon etc ...*/}
 			<Header />
-
 			{/*... App Body with Main Content ...*/}
-			{/*... Side Bar ...*/}
-			{/*... News Feed with Stories and Posts ...*/}
-			{/*... Widgets ...*/}
+			<div className="app__body">
+				{/*... Side Bar ...*/}
+				<Sidebar/>
+				{/*... News Feed with Stories and Posts ...*/}
+				{/*... Widgets ...*/}
+			</div>
+
+
 		</div>
 	);
 }
