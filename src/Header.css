@@ -66,3 +66,17 @@
 	padding: 0 30px;
 	border-bottom: none;
 }
+
+/* Avatar + Profile Name part */
+.header__info{
+	display: flex;
+	align-items: center;
+}
+
+.header__info > h4{
+	margin-left: 10px;
+}
+
+.header__right{
+	display: flex;
+}
