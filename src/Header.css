@@ -46,6 +46,23 @@
 	color: grey;
 }
 
+/* Hover over top middle bar icons turns them into Facebook Blue */
 .header__option:hover > .MuiSvgIcon-root{
 	color: #2e81f4;
+}
+
+.header__option{
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
+	cursor: pointer;
+}
+
+/* Hover over top middle bar icons to show a background grey shadow */
+.header__option:hover{
+	background-color: #eff2f5;
+	border-radius: 10px;
+	align-items: center;
+	padding: 0 30px;
+	border-bottom: none;
 }
