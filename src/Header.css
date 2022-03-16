@@ -51,6 +51,16 @@
 	color: #2e81f4;
 }
 
+/* Target the active container material UI icon, make the icon blue */
+.header__option--active > .MuiSvgIcon-root{
+	color: #2e81f4;
+}
+
+/* Target the active container, give it a blue bottom border */
+.header__option--active{
+	border-bottom: 4px solid #2e81f4;
+}
+
 .header__option{
 	display: flex;
 	align-items: center;
@@ -80,3 +90,4 @@
 .header__right{
 	display: flex;
 }
+
