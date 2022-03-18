@@ -8,7 +8,7 @@ import PeopleIcon from '@mui/icons-material/People';
 import ChatIcon from '@mui/icons-material/Chat';
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
-import ExpandMoreOutlinedIcon from '@mui/icons-material/ExpandMoreOutlined';
+import ExpandCircleDownRoundedIcon from '@mui/icons-material/ExpandCircleDownRounded';
 
 
 function Sidebar() {
@@ -21,7 +21,7 @@ function Sidebar() {
             <SidebarRow Icon={ChatIcon} title="Messenger"/>
             <SidebarRow Icon={StorefrontIcon} title="MarketPlace"/>
             <SidebarRow Icon={VideoLibraryIcon} title="Videos"/>
-            <SidebarRow Icon={ExpandMoreOutlinedIcon} title="Marketplace"/>
+            <SidebarRow Icon={ExpandCircleDownRoundedIcon} title="See More"/>
         </div>
     )
 }
