@@ -8,7 +8,7 @@ import profileAvatar from './assets/profileAvatar.jpg'
 
 function MessageSender() {
 
-    {/*... track input for our newsfeed message posting ...*/}
+    //... track input for our newsfeed message posting ...//
     const [input, setInput] = useState(""); 
     const [imageUrl, setImageUrl] = useState("");
 

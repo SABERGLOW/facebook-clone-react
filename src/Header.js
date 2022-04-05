@@ -12,7 +12,6 @@ import profileAvatar from './assets/profileAvatar.jpg'
 import AddIcon from '@mui/icons-material/Add';
 import ForumIcon from '@mui/icons-material/Forum';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ArrowDropDownRoundedIcon from '@mui/icons-material/ArrowDropDownRounded';
 
 
