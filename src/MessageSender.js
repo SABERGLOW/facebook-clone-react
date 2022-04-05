@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './MessageSender.css'
 import { Avatar } from '@mui/material'
 import VideocamIcon from '@mui/icons-material/Videocam';
@@ -8,21 +8,33 @@ import profileAvatar from './assets/profileAvatar.jpg'
 
 function MessageSender() {
 
+    {/*... track input for our newsfeed message posting ...*/}
+    const [input, setInput] = useState(""); 
+    const [imageUrl, setImageUrl] = useState("");
+
     const handleSubmit = (e) =>{
         e.preventDefault(); //... prevent default refresh when pressing enter/submit
+
+        //... handle some db stuff here ...//
+        setInput("");
+        setImageUrl("");
     }
     return (
         <div className='messageSender'>
             <div className='messageSender__top'> {/*... top part will contain avatar, message+image ...*/}
             <Avatar src = {profileAvatar} alt='Facebook Profile Avatar'/>
                 <form>
-
+                    
                     <input
+                        value={input}
+                        onChange={(e) => setInput(e.target.value)}
                         className='messageSender__input'
                         placeholder={`What's on your mind, Wali Ullah`}>
                     </input>
 
                     <input
+                        value={imageUrl}
+                        onChange={(e) => setImageUrl(e.target.value)}
                         placeholder={`Image URL (Optional)`}>
                     </input>
 
