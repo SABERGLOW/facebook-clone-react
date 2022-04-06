@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/facebook-clone-react/static/css/main.115af198.css",
-    "main.js": "/facebook-clone-react/static/js/main.e148ab3b.js",
+    "main.css": "/facebook-clone-react/static/css/main.64bd864f.css",
+    "main.js": "/facebook-clone-react/static/js/main.fed3eb6c.js",
     "static/js/787.7befaf6e.chunk.js": "/facebook-clone-react/static/js/787.7befaf6e.chunk.js",
     "static/media/story1.jpg": "/facebook-clone-react/static/media/story1.570a68f08beb2f2599a1.jpg",
     "static/media/story4.jpg": "/facebook-clone-react/static/media/story4.84285fc01106d5f1af80.jpg",
     "static/media/story3.jpg": "/facebook-clone-react/static/media/story3.efa29b8a4946352cb0a0.jpg",
-    "static/media/profileAvatar.jpg": "/facebook-clone-react/static/media/profileAvatar.ff4f3035a0f985e3e922.jpg",
     "static/media/story2.jpg": "/facebook-clone-react/static/media/story2.a6f5e36b8cd7883f08c8.jpg",
     "static/media/story5.jpg": "/facebook-clone-react/static/media/story5.cb3b82072209c48d2145.jpg",
+    "static/media/profileAvatar.jpg": "/facebook-clone-react/static/media/profileAvatar.61ee489bec31cd35e84d.jpg",
     "static/media/logo512.png": "/facebook-clone-react/static/media/logo512.7fce0fac9bc3eb2e3580.png",
     "index.html": "/facebook-clone-react/index.html",
-    "main.115af198.css.map": "/facebook-clone-react/static/css/main.115af198.css.map",
-    "main.e148ab3b.js.map": "/facebook-clone-react/static/js/main.e148ab3b.js.map",
+    "main.64bd864f.css.map": "/facebook-clone-react/static/css/main.64bd864f.css.map",
+    "main.fed3eb6c.js.map": "/facebook-clone-react/static/js/main.fed3eb6c.js.map",
     "787.7befaf6e.chunk.js.map": "/facebook-clone-react/static/js/787.7befaf6e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.115af198.css",
-    "static/js/main.e148ab3b.js"
+    "static/css/main.64bd864f.css",
+    "static/js/main.fed3eb6c.js"
   ]
 }
