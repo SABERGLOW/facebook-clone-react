@@ -1,7 +1,9 @@
 import React from 'react'
 import './Feed.css'
-import MessageSender from './MessageSender'
 import StoryReel from './StoryReel'
+import MessageSender from './MessageSender'
+import Post from './Post'
+
 
 function Feed() {
     return (
@@ -10,6 +12,8 @@ function Feed() {
             <StoryReel/>
             {/* Message Sender  */}
             <MessageSender/>
+            {/* Post Message */}
+            <Post/>
         </div>
     )
 }
