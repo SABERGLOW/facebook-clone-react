@@ -13,7 +13,13 @@ function Feed() {
             {/* Message Sender  */}
             <MessageSender/>
             {/* Post Message */}
-            <Post/>
+            <Post
+                profilePic="https://media.istockphoto.com/photos/parliament-in-budapest-picture-id1163188578?k=20&m=1163188578&s=612x612&w=0&h=cO1dkCU9RBb-BNFzxmBGnad90Jo7S8c2VNTApUijKBs="
+                message="message..."
+                timestamp="timestamp"
+                username="Wali Ullah"
+                image="https://cdn.cnn.com/cnnnext/dam/assets/180508123453-destination-budapest.jpg"
+            />
         </div>
     )
 }
