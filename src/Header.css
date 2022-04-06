@@ -87,6 +87,21 @@
 	margin-left: 10px;
 }
 
+.header__info > img{
+	margin-left: 10px;
+}
+
+.header__info > img{
+	filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.header__info > img:hover{
+	filter: alpha(opacity=85);
+    opacity: 0.85;
+}
+
+
 .header__right{
 	display: flex;
 }

@@ -7,13 +7,16 @@ import FlagIcon from '@mui/icons-material/Flag';
 import SubscriptionsOutlinedIcon from '@mui/icons-material/SubscriptionsOutlined';
 import StorefrontOutlinedIcon from '@mui/icons-material/StorefrontOutlined';
 import SupervisedUserCircleIcon from '@mui/icons-material/SupervisedUserCircle';
-import { Avatar, IconButton } from '@mui/material';
+import { Avatar } from '@mui/material';
 import profileAvatar from './assets/profileAvatar.jpg'
-import AddIcon from '@mui/icons-material/Add';
-import ForumIcon from '@mui/icons-material/Forum';
-import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
-import ArrowDropDownRoundedIcon from '@mui/icons-material/ArrowDropDownRounded';
-
+//import AddIcon from '@mui/icons-material/Add';
+//import ForumIcon from '@mui/icons-material/Forum';
+//import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
+//import ArrowDropDownRoundedIcon from '@mui/icons-material/ArrowDropDownRounded';
+import TopHeaderNotificationIcon from './assets/Facebook Web Icons/TopHeaderNotificationIcon.png';
+import TopHeaderExpandMoreIcon from './assets/Facebook Web Icons/TopHeaderExpandMoreIcon.png';
+import TopHeaderMenuIcon from './assets/Facebook Web Icons/TopHeaderMenuIcon.png';
+import TopHeaderMessengerIcon from './assets/Facebook Web Icons/TopHeaderMessengerIcon.png';
 
 function Header() {
     return (
@@ -48,22 +51,10 @@ function Header() {
                 <div className="header__info">
                     <Avatar src = {profileAvatar} alt='Facebook Profile Avatar'/>
                     <h4>Wali Ullah</h4>    
-                    <IconButton>
-                        <AddIcon/>
-                    </IconButton>
-
-                    <IconButton>
-                        <ForumIcon/>
-                    </IconButton>
-
-                    <IconButton>
-                        <NotificationsActiveIcon/>
-                    </IconButton>
-
-                    <IconButton>
-                        <ArrowDropDownRoundedIcon/>
-                    </IconButton>
-
+                    <img src={TopHeaderMenuIcon} alt="" width={40} height={40} />
+                    <img src={TopHeaderMessengerIcon} alt="" width={40} height={40} />
+                    <img src={TopHeaderNotificationIcon} alt="" width={40} height={40} />
+                    <img src={TopHeaderExpandMoreIcon} alt="" width={40} height={40} />
                 </div>
             </div>
 
