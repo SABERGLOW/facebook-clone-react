@@ -8,7 +8,7 @@ import SubscriptionsOutlinedIcon from '@mui/icons-material/SubscriptionsOutlined
 import StorefrontOutlinedIcon from '@mui/icons-material/StorefrontOutlined';
 import SupervisedUserCircleIcon from '@mui/icons-material/SupervisedUserCircle';
 import { Avatar } from '@mui/material';
-import profileAvatar from './assets/profileAvatar.jpg'
+//import profileAvatar from './assets/profileAvatar.jpg'
 //import AddIcon from '@mui/icons-material/Add';
 //import ForumIcon from '@mui/icons-material/Forum';
 //import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
@@ -17,8 +17,11 @@ import TopHeaderNotificationIcon from './assets/Facebook Web Icons/TopHeaderNoti
 import TopHeaderExpandMoreIcon from './assets/Facebook Web Icons/TopHeaderExpandMoreIcon.png';
 import TopHeaderMenuIcon from './assets/Facebook Web Icons/TopHeaderMenuIcon.png';
 import TopHeaderMessengerIcon from './assets/Facebook Web Icons/TopHeaderMessengerIcon.png';
+import {useStateValue} from "./StateProvider.js"
 
 function Header() {
+
+    const[{user}, dispatch] = useStateValue();
     return (
         <div className='header'>
             <div className="header__left">
@@ -49,8 +52,8 @@ function Header() {
             </div>
             <div className='header__right'>
                 <div className="header__info">
-                    <Avatar src = {profileAvatar} alt='Facebook Profile Avatar'/>
-                    <h4>Wali Ullah</h4>    
+                    <Avatar src = {user.photoURL} alt='Facebook Profile Avatar'/>
+                    <h4>{user.displayName}</h4>    
                     <img src={TopHeaderMenuIcon} alt="" width={40} height={40} />
                     <img src={TopHeaderMessengerIcon} alt="" width={40} height={40} />
                     <img src={TopHeaderNotificationIcon} alt="" width={40} height={40} />

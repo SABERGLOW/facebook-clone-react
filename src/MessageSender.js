@@ -4,10 +4,12 @@ import { Avatar } from '@mui/material'
 import VideocamIcon from '@mui/icons-material/Videocam';
 import PhotoLibraryIcon from '@mui/icons-material/PhotoLibrary';
 import InsertEmoticonIcon from '@mui/icons-material/InsertEmoticon';
-import profileAvatar from './assets/profileAvatar.jpg'
+//import profileAvatar from './assets/profileAvatar.jpg'
+import {useStateValue} from "./StateProvider.js"
 
 function MessageSender() {
 
+    const[{user}, dispatch] = useStateValue();
     //... track input for our newsfeed message posting ...//
     const [input, setInput] = useState(""); 
     const [imageUrl, setImageUrl] = useState("");
@@ -22,14 +24,14 @@ function MessageSender() {
     return (
         <div className='messageSender'>
             <div className='messageSender__top'> {/*... top part will contain avatar, message+image ...*/}
-            <Avatar src = {profileAvatar} alt='Facebook Profile Avatar'/>
+            <Avatar src = {user.photoURL} alt='Facebook Profile Avatar'/>
                 <form>
                     
                     <input
                         value={input}
                         onChange={(e) => setInput(e.target.value)}
                         className='messageSender__input'
-                        placeholder={`What's on your mind, Wali Ullah`}>
+                        placeholder={`What's on your mind, ${user.displayName}?`}>
                     </input>
 
                     <input
