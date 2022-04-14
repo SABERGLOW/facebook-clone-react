@@ -12,7 +12,7 @@ import ExpandCircleDownRoundedIcon from '@mui/icons-material/ExpandCircleDownRou
 import {useStateValue} from "./StateProvider.js"
 
 function Sidebar() {
-
+    // eslint-disable-next-line no-unused-vars
     const[{user}, dispatch] = useStateValue();
 	return ( 
         <div className="sidebar">

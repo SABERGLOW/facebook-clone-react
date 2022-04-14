@@ -8,7 +8,7 @@ import InsertEmoticonIcon from '@mui/icons-material/InsertEmoticon';
 import {useStateValue} from "./StateProvider.js"
 
 function MessageSender() {
-
+    // eslint-disable-next-line no-unused-vars
     const[{user}, dispatch] = useStateValue();
     //... track input for our newsfeed message posting ...//
     const [input, setInput] = useState(""); 

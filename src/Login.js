@@ -8,7 +8,7 @@ import {actionTypes} from "./reducer.js"
 import {useStateValue} from "./StateProvider.js"
 
 function Login() {
-
+    // eslint-disable-next-line no-unused-vars
     const [state, dispatch ] = useStateValue();
 
     const signIn = () => {

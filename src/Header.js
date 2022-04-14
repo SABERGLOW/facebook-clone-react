@@ -20,7 +20,7 @@ import TopHeaderMessengerIcon from './assets/Facebook Web Icons/TopHeaderMesseng
 import {useStateValue} from "./StateProvider.js"
 
 function Header() {
-
+    // eslint-disable-next-line no-unused-vars
     const[{user}, dispatch] = useStateValue();
     return (
         <div className='header'>
