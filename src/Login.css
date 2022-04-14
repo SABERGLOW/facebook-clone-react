@@ -1,0 +1,34 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.login > button{
+    width: 300px;
+    background-color: #2e81f4;
+    color: #eff2f5;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login > button:hover {
+    background-color: #303030;
+    color: #2e81f4;
+}
+
+.login > div > img:first-child {
+    object-fit: contain;
+    height: 150px;
+}
+
+.login > div > img:last-child {
+    object-fit: contain;
+    height: 50px;
+    padding-top: 25px;
+}
+
+.login > div{
+    display: flex;
+    flex-direction: column;
+}
