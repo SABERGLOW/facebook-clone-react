@@ -1,4 +1,148 @@
-.sidebar{
+.sidebar {
     padding: 25px 10px;
     flex: 0.33;
 }
+
+/* Shortcutsunit */
+
+p {
+    margin: 0;
+}
+
+.flex-col-hstart-vstart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex-col-hstart-vcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flex-row-vcenter-hstart {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-row-vstart-hstart {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.shortcuts-unit {
+    width: 312px;
+    height: 357px;
+}
+
+.unit-header {
+    padding: 0px 15px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.hairline {
+    background-color: rgba(201, 204, 209, 1);
+    height: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.txt-196 {
+    font-size: 18px;
+    font-weight: 650;
+    line-height: 118%;
+    letter-spacing: -0.4px;
+    color: rgba(101, 103, 107, 1);
+    width: 300px;
+    word-wrap: break-word;
+}
+
+.shortcuts-list {
+    padding: 7px 0px 0px 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.list-cell-1 {
+    width: 100%;
+}
+
+.list-cell {
+    padding: 11px 15px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.profile-photo {
+    width: 36px;
+    height: 36px;
+    margin-right: 12px;
+}
+
+.text-pairing {
+    display: flex;
+    flex: 1;
+    width: 232px;
+    height: fit-content;
+}
+
+.txt-454 {
+    font-weight: 500;
+}
+
+
+.list-cell-1 {
+    width: 100%;
+}
+
+.list-cell {
+    padding: 11px 15px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+._-36dp-small-secondary-icon-only {
+    width: 24px;
+    height: 24px;
+    padding: 7px;
+    margin-right: 12px;
+    /*box-sizing: border-box;*/
+    border-radius: 100px;
+    background-color: rgba(228, 230, 235, 1);
+}
+
+.icon-chevron-down {
+    
+    width: 100%;
+    height: 100%;
+}
+
+.text-pairing {
+    display: flex;
+    flex: 1;
+    width: 232px;
+    height: fit-content;
+}
+
+/*
+.txt-454 {
+    font-size: 15px;
+    font-family: SF Pro Text, sans-serif;
+    font-weight: 500;
+    line-height: 133%;
+    letter-spacing: -0.2px;
+    color: rgba(5, 5, 5, 1);
+    width: 233px;
+    word-wrap: break-word;
+}*/
