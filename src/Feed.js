@@ -1,27 +1,56 @@
-import React from 'react'
-import './Feed.css'
-import StoryReel from './StoryReel'
-import MessageSender from './MessageSender'
-import Post from './Post'
-
+import React, { useState, useEffect } from "react";
+import "./Feed.css";
+import StoryReel from "./StoryReel";
+import MessageSender from "./MessageSender";
+import Post from "./Post";
+import db from "./firebase.js";
+import { collection, orderBy, onSnapshot, query } from "firebase/firestore";
 
 function Feed() {
-    return (
-        <div className='feed'>
-            {/* Story Reel */}
-            <StoryReel/>
-            {/* Message Sender  */}
-            <MessageSender/>
-            {/* Post Message */}
-            <Post
-                profilePic="https://media.istockphoto.com/photos/parliament-in-budapest-picture-id1163188578?k=20&m=1163188578&s=612x612&w=0&h=cO1dkCU9RBb-BNFzxmBGnad90Jo7S8c2VNTApUijKBs="
-                message="message..."
-                timestamp="timestamp"
-                username="Wali Ullah"
-                image="https://cdn.cnn.com/cnnnext/dam/assets/180508123453-destination-budapest.jpg"
-            />
-        </div>
-    )
+	const [posts, setPosts] = useState([]);
+
+	const renderPosts = () => {
+		return posts.map((post) => (
+			<Post
+				key={post.id}
+				profilePic={post.data.profilePic}
+				message={post.data.message}
+				timestamp={post.data.time}
+				username={post.data.username}
+				image={post.data.image}
+			/>
+		));
+	};
+
+	useEffect(() => {
+		onSnapshot(
+			query(collection(db, "posts"), orderBy("time", "desc")),
+			(snapshot) => {
+				var array = [];
+				snapshot.forEach((doc) => {
+					var post = {};
+					post.id = doc.id;
+					post.data = doc.data();
+					post.data.time = new Date(new Date()).toISOString();
+					post.data.time = post.data.time.substring(0, 10);
+					array.push(post);
+				});
+
+				setPosts(array);
+			}
+		);
+	}, []);
+
+	return (
+		<div className='feed'>
+			{/* Story Reel */}
+			<StoryReel />
+			{/* Message Sender  */}
+			<MessageSender />
+			{/* Post Message */}
+			{renderPosts()}
+		</div>
+	);
 }
 
-export default Feed
+export default Feed;
