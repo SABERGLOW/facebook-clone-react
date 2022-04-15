@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Login.css";
-import logo from "./assets/logo512honeycomb.png"
-import textLogo from "./assets/PhasebookTextLogo.png"
+import logo from "../../assets/logo512honeycomb.png"
+import textLogo from "../../assets/PhasebookTextLogo.png"
 import { Button } from '@mui/material';
-import {auth, provider, signInWithPopup} from "./firebase.js"
-import {actionTypes} from "./reducer.js"
-import {useStateValue} from "./StateProvider.js"
+import {auth, provider, signInWithPopup} from "../Firebase/firebase";
+import {actionTypes} from "../Context API/reducer.js"
+import {useStateValue} from "../Context API/StateProvider.js"
 
 function Login() {
     // eslint-disable-next-line no-unused-vars

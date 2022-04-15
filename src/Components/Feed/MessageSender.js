@@ -5,9 +5,9 @@ import VideocamIcon from "@mui/icons-material/Videocam";
 import PhotoLibraryIcon from "@mui/icons-material/PhotoLibrary";
 import InsertEmoticonIcon from "@mui/icons-material/InsertEmoticon";
 //import profileAvatar from './assets/profileAvatar.jpg'
-import { useStateValue } from "./StateProvider.js";
+import { useStateValue } from "../Context API/StateProvider.js";
 
-import db from "./firebase.js";
+import db from "../Firebase/firebase";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
 function MessageSender() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import logo from './assets/logo512.png'
+import logo from '../../assets/logo512.png'
 import SearchIcon from '@mui/icons-material/Search';
 import HomeIcon from '@mui/icons-material/Home';
 import FlagIcon from '@mui/icons-material/Flag';
@@ -13,11 +13,11 @@ import { Avatar } from '@mui/material';
 //import ForumIcon from '@mui/icons-material/Forum';
 //import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 //import ArrowDropDownRoundedIcon from '@mui/icons-material/ArrowDropDownRounded';
-import TopHeaderNotificationIcon from './assets/Facebook Web Icons/TopHeaderNotificationIcon.png';
-import TopHeaderExpandMoreIcon from './assets/Facebook Web Icons/TopHeaderExpandMoreIcon.png';
-import TopHeaderMenuIcon from './assets/Facebook Web Icons/TopHeaderMenuIcon.png';
-import TopHeaderMessengerIcon from './assets/Facebook Web Icons/TopHeaderMessengerIcon.png';
-import {useStateValue} from "./StateProvider.js"
+import TopHeaderNotificationIcon from '../../assets/Facebook Web Icons/TopHeaderNotificationIcon.png';
+import TopHeaderExpandMoreIcon from '../../assets/Facebook Web Icons/TopHeaderExpandMoreIcon.png';
+import TopHeaderMenuIcon from '../../assets/Facebook Web Icons/TopHeaderMenuIcon.png';
+import TopHeaderMessengerIcon from '../../assets/Facebook Web Icons/TopHeaderMessengerIcon.png';
+import {useStateValue} from "../Context API/StateProvider.js"
 
 function Header() {
     // eslint-disable-next-line no-unused-vars

@@ -9,7 +9,7 @@ import ChatIcon from '@mui/icons-material/Chat';
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
 import ExpandCircleDownRoundedIcon from '@mui/icons-material/ExpandCircleDownRounded';
-import {useStateValue} from "./StateProvider.js"
+import {useStateValue} from "../Context API/StateProvider.js"
 
 function Sidebar() {
     // eslint-disable-next-line no-unused-vars

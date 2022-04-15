@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Header from "./Header";
-import Sidebar from "./Sidebar";
-import Feed from "./Feed";
+import Header from "./Components/Header/Header";
+import Sidebar from "./Components/Siderbar/Sidebar";
+import Feed from "./Components/Feed/Feed";
 //import Widgets from "./Widgets";
-import Login from "./Login";
-import {useStateValue} from "./StateProvider";
+import Login from "./Components/Login/Login";
+import {useStateValue} from "./Components/Context API/StateProvider";
 
 function App() {
 	// eslint-disable-next-line no-unused-vars
