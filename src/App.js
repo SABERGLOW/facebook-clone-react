@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./Components/Header/Header";
 import Sidebar from "./Components/Siderbar/Sidebar";
 import Feed from "./Components/Feed/Feed";
-//import Widgets from "./Widgets";
+import Widgets from "./Components/Widgets/Widgets";
 import Login from "./Components/Login/Login";
 import {useStateValue} from "./Components/Context API/StateProvider";
 
@@ -27,7 +27,7 @@ function App() {
 						{/*... News Feed with Stories and Posts ...*/}
 						<Feed/>
 						{/*... Widgets ...*/}
-						{/*... <Widgets/> ...*/}
+						<Widgets/>
 					
 					</div>
 				</>

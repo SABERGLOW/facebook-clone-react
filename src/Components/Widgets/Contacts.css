@@ -1,0 +1,20 @@
+.contacts{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+
+.avatar{
+    height: 35px !important;
+    width: 35px !important;
+}
+
+.contacts > h4 {
+    font-weight: 600;
+    margin-left: 10px;
+} 
