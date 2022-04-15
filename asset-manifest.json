@@ -1,11 +1,11 @@
 {
-  "main.css": "/facebook-clone-react/static/css/main.3507512c.chunk.css",
-  "main.js": "/facebook-clone-react/static/js/main.5804b079.chunk.js",
-  "main.js.map": "/facebook-clone-react/static/js/main.5804b079.chunk.js.map",
+  "main.css": "/facebook-clone-react/static/css/main.b54514a3.chunk.css",
+  "main.js": "/facebook-clone-react/static/js/main.4ed8ed5a.chunk.js",
+  "main.js.map": "/facebook-clone-react/static/js/main.4ed8ed5a.chunk.js.map",
   "static/js/1.5c7d1b12.chunk.js": "/facebook-clone-react/static/js/1.5c7d1b12.chunk.js",
   "static/js/1.5c7d1b12.chunk.js.map": "/facebook-clone-react/static/js/1.5c7d1b12.chunk.js.map",
-  "static/js/2.8c37f80f.chunk.js": "/facebook-clone-react/static/js/2.8c37f80f.chunk.js",
-  "static/js/2.8c37f80f.chunk.js.map": "/facebook-clone-react/static/js/2.8c37f80f.chunk.js.map",
+  "static/js/2.39cf8018.chunk.js": "/facebook-clone-react/static/js/2.39cf8018.chunk.js",
+  "static/js/2.39cf8018.chunk.js.map": "/facebook-clone-react/static/js/2.39cf8018.chunk.js.map",
   "runtime~main.js": "/facebook-clone-react/static/js/runtime~main.75fbd7cf.js",
   "runtime~main.js.map": "/facebook-clone-react/static/js/runtime~main.75fbd7cf.js.map",
   "static/media/logo512.png": "/facebook-clone-react/static/media/logo512.f407c31b.png",
@@ -17,8 +17,8 @@
   "static/media/story5.jpg": "/facebook-clone-react/static/media/story5.ace12e7a.jpg",
   "static/media/logo512honeycomb.png": "/facebook-clone-react/static/media/logo512honeycomb.dc6a17c6.png",
   "static/media/PhasebookTextLogo.png": "/facebook-clone-react/static/media/PhasebookTextLogo.9db545c0.png",
-  "static/css/main.3507512c.chunk.css.map": "/facebook-clone-react/static/css/main.3507512c.chunk.css.map",
+  "static/css/main.b54514a3.chunk.css.map": "/facebook-clone-react/static/css/main.b54514a3.chunk.css.map",
   "index.html": "/facebook-clone-react/index.html",
-  "precache-manifest.71386a15eb739d3b589951e214c7f9b0.js": "/facebook-clone-react/precache-manifest.71386a15eb739d3b589951e214c7f9b0.js",
+  "precache-manifest.9d10ffda197cd21919e3104fb2f272dc.js": "/facebook-clone-react/precache-manifest.9d10ffda197cd21919e3104fb2f272dc.js",
   "service-worker.js": "/facebook-clone-react/service-worker.js"
 }

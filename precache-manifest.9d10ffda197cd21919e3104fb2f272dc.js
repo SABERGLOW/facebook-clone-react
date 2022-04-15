@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "5804b07924a05f3eb93e",
-    "url": "/facebook-clone-react/static/css/main.3507512c.chunk.css"
+    "revision": "4ed8ed5ab49f58465782",
+    "url": "/facebook-clone-react/static/css/main.b54514a3.chunk.css"
   },
   {
-    "revision": "5804b07924a05f3eb93e",
-    "url": "/facebook-clone-react/static/js/main.5804b079.chunk.js"
+    "revision": "4ed8ed5ab49f58465782",
+    "url": "/facebook-clone-react/static/js/main.4ed8ed5a.chunk.js"
   },
   {
     "revision": "5c7d1b126ae4d0bd9124",
     "url": "/facebook-clone-react/static/js/1.5c7d1b12.chunk.js"
   },
   {
-    "revision": "8c37f80ff54541ab96cb",
-    "url": "/facebook-clone-react/static/js/2.8c37f80f.chunk.js"
+    "revision": "39cf80188eae108e1531",
+    "url": "/facebook-clone-react/static/js/2.39cf8018.chunk.js"
   },
   {
     "revision": "75fbd7cf7b891cdbc909",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/facebook-clone-react/static/media/PhasebookTextLogo.9db545c0.png"
   },
   {
-    "revision": "a17978a501290f49b23a3348a9568d71",
+    "revision": "e09651d2ec169b2106cf479a19374ed8",
     "url": "/facebook-clone-react/index.html"
   }
 ];

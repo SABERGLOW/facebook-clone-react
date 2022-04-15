@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/facebook-clone-react/precache-manifest.71386a15eb739d3b589951e214c7f9b0.js"
+  "/facebook-clone-react/precache-manifest.9d10ffda197cd21919e3104fb2f272dc.js"
 );
 
 workbox.clientsClaim();
