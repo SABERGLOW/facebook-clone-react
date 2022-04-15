@@ -1,31 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "4ed8ed5ab49f58465782",
-    "url": "/facebook-clone-react/static/css/main.b54514a3.chunk.css"
+    "revision": "3a46b912721f5f0f1539",
+    "url": "/facebook-clone-react/static/css/main.a8494183.chunk.css"
   },
   {
-    "revision": "4ed8ed5ab49f58465782",
-    "url": "/facebook-clone-react/static/js/main.4ed8ed5a.chunk.js"
+    "revision": "3a46b912721f5f0f1539",
+    "url": "/facebook-clone-react/static/js/main.3a46b912.chunk.js"
   },
   {
-    "revision": "5c7d1b126ae4d0bd9124",
-    "url": "/facebook-clone-react/static/js/1.5c7d1b12.chunk.js"
+    "revision": "391e9cd3c025acf33468",
+    "url": "/facebook-clone-react/static/js/1.391e9cd3.chunk.js"
   },
   {
-    "revision": "39cf80188eae108e1531",
-    "url": "/facebook-clone-react/static/js/2.39cf8018.chunk.js"
+    "revision": "49cd0cfbf749293c0fcb",
+    "url": "/facebook-clone-react/static/js/2.49cd0cfb.chunk.js"
   },
   {
-    "revision": "75fbd7cf7b891cdbc909",
-    "url": "/facebook-clone-react/static/js/runtime~main.75fbd7cf.js"
-  },
-  {
-    "revision": "f407c31b217aac6e0cd4171092d53a8c",
-    "url": "/facebook-clone-react/static/media/logo512.f407c31b.png"
+    "revision": "4aa9f85ddb159313df7a",
+    "url": "/facebook-clone-react/static/js/runtime~main.4aa9f85d.js"
   },
   {
     "revision": "ec867a920e8c4414492e5844538a3425",
     "url": "/facebook-clone-react/static/media/profileAvatar.ec867a92.jpg"
+  },
+  {
+    "revision": "f407c31b217aac6e0cd4171092d53a8c",
+    "url": "/facebook-clone-react/static/media/logo512.f407c31b.png"
   },
   {
     "revision": "baaa855a37bbc7806badc7543bcd88f9",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/facebook-clone-react/static/media/PhasebookTextLogo.9db545c0.png"
   },
   {
-    "revision": "e09651d2ec169b2106cf479a19374ed8",
+    "revision": "72e6983bab94c7c9d898f87e13839e3a",
     "url": "/facebook-clone-react/index.html"
   }
 ];
