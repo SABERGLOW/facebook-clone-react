@@ -16,9 +16,18 @@ function MessageSender() {
 	// eslint-disable-next-line no-unused-vars
 	const [{ user }, dispatch] = useStateValue();
 
+	/**
+	 * Handles the submission of the form that is our "post"       
+	 * @param {Event} e - The event object.       
+	 */
 	const handleSubmit = (e) => {
 		e.preventDefault();
 
+		/**
+		 * Adds a new post to the database.       
+		 * @param {firebase.firestore.CollectionReference} collection - The collection to add the post to.       
+		 * @param {object} data - The data to add to the post.          
+		 */
 		addDoc(collection(db, "posts"), {
 			message: input,
 			profilePic: user.photoURL,

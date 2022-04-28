@@ -6,6 +6,11 @@ import reportWebVitals from "./reportWebVitals";
 import { StateProvider } from "./Components/Context API/StateProvider";
 import reducer, { initialState } from "./Components/Context API/reducer";
 
+	/**
+   * A React component that provides the state management for the application. 
+   * @param {StateProviderProps} props - The props for the StateProvider component. 
+   * @returns A React component that provides the state management for the application. 
+   */
 ReactDOM.render(
 	<React.StrictMode>
 		<StateProvider initialState={initialState} reducer={reducer}>

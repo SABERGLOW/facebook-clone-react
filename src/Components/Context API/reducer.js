@@ -10,6 +10,12 @@ export const actionTypes = {
 };
 
 //... Listen to the reducer: if you receiced a SET_USER action, return the Data Layer with the new User
+/**
+ * Reducer for the user state.       
+ * @param {Object} state - The current state of the reducer.       
+ * @param {Object} action - The action to be performed.       
+ * @returns {Object} The new state of the reducer.       
+ */
 const reducer = (state, action) => {
 	switch (action.type) {
 		case actionTypes.SET_USER:

@@ -28,7 +28,7 @@ function App() {
 						<Feed/>
 						{/*... Widgets ...*/}
 						<Widgets/>
-					
+
 					</div>
 				</>
 			)}
