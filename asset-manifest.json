@@ -1,7 +1,7 @@
 {
   "main.css": "/facebook-clone-react/static/css/main.a8494183.chunk.css",
-  "main.js": "/facebook-clone-react/static/js/main.3a46b912.chunk.js",
-  "main.js.map": "/facebook-clone-react/static/js/main.3a46b912.chunk.js.map",
+  "main.js": "/facebook-clone-react/static/js/main.7ebe3b58.chunk.js",
+  "main.js.map": "/facebook-clone-react/static/js/main.7ebe3b58.chunk.js.map",
   "static/js/1.391e9cd3.chunk.js": "/facebook-clone-react/static/js/1.391e9cd3.chunk.js",
   "static/js/1.391e9cd3.chunk.js.map": "/facebook-clone-react/static/js/1.391e9cd3.chunk.js.map",
   "static/js/2.49cd0cfb.chunk.js": "/facebook-clone-react/static/js/2.49cd0cfb.chunk.js",
@@ -19,6 +19,6 @@
   "static/media/PhasebookTextLogo.png": "/facebook-clone-react/static/media/PhasebookTextLogo.9db545c0.png",
   "static/css/main.a8494183.chunk.css.map": "/facebook-clone-react/static/css/main.a8494183.chunk.css.map",
   "index.html": "/facebook-clone-react/index.html",
-  "precache-manifest.e8dff9989a8dcb4b0fc52cd2fa151ba7.js": "/facebook-clone-react/precache-manifest.e8dff9989a8dcb4b0fc52cd2fa151ba7.js",
+  "precache-manifest.588e07353cefd5ae9d94da0f39364990.js": "/facebook-clone-react/precache-manifest.588e07353cefd5ae9d94da0f39364990.js",
   "service-worker.js": "/facebook-clone-react/service-worker.js"
 }
