@@ -10,7 +10,7 @@ import './Contacts.css';
 function Contacts({ImageURL, title}) {
     return (
         <div className='contacts'>
-            {ImageURL && <Avatar classname="avatar" src={ImageURL} />}
+            {ImageURL && <Avatar className="avatar" src={ImageURL} />}
             <h4>{title}</h4>
         </div>
     )
